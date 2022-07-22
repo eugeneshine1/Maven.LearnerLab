@@ -5,6 +5,7 @@ public class Student extends Person implements Learner {
 
     public Student(long id, String name) {
         super(id, name);
+        Students.getInstance().add(this);
     }
 
     public void learn(double numberOfHours) {

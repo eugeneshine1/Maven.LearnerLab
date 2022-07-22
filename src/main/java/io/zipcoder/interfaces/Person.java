@@ -4,6 +4,12 @@ public class Person {
     private final long id;
     private String name;
 
+    public Person () {
+        this.id =0;
+        this.name="";
+
+    }
+
 
     public Person(long id, String name) {
         this.id = id;
